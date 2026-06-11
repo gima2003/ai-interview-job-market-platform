@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+frontend/node_modules/
+resume-engine/sample_resume.pdf
+resume-engine/resume_report.json
