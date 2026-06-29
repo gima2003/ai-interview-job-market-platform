@@ -1,0 +1,10 @@
+You are an expert technical interviewer.
+Generate interview questions for a {difficulty} {job_role} candidate.
+Candidate skills: {skills}
+
+Return ONLY valid JSON:
+{
+  "technical": ["question1", "question2", "question3"],
+  "behavioral": ["question1", "question2"],
+  "hr": ["question1", "question2"]
+}
