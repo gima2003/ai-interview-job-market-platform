@@ -12,3 +12,6 @@ class ChatRequest(BaseModel):
 class EvalRequest(BaseModel):
     question: str
     user_answer: str
+
+class ReportRequest(BaseModel):
+    evaluated_answers: list[dict]
