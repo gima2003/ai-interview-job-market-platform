@@ -1,9 +1,8 @@
 import os
 from google import genai
+# pyrefly: ignore [missing-import]
 from google.genai import types
-from dotenv import load_dotenv
 
-load_dotenv()
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
@@ -22,10 +21,13 @@ def chat_response(history: list, user_message: str):
     messages = []
 
     for msg in history:
+        # Normalize role: Gemini API requires 'user' or 'model' (not 'assistant' or 'bot')
+        role = "model" if msg.get("role") in ["assistant", "bot", "model"] else "user"
+        content_text = msg.get("content", "")
         messages.append(
             types.Content(
-                role=msg["role"],
-                parts=[types.Part(text=msg["content"])]
+                role=role,
+                parts=[types.Part(text=content_text)]
             )
         )
 
@@ -45,8 +47,9 @@ def chat_response(history: list, user_message: str):
             contents=messages
         )
 
-        return {"reply": response.text}
+        reply_text = response.text if response and response.text else "Sorry, I could not generate a response. Please try again."
+        return {"reply": reply_text}
 
     except Exception as e:
         print(f"Chatbot error: {e}")
-        return {"reply": "Sorry, I encountered an error. Please try again."}
+        return {"reply": "Sorry, I encountered an error processing your request. Please try again."}
