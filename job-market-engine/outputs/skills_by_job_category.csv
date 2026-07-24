@@ -1,0 +1,91 @@
+Job_Category,Skill,Count
+Other,Python,2184
+Other,SQL,1751
+Other,Kubernetes,1509
+Other,TensorFlow,1504
+Other,PyTorch,1424
+Other,Scala,1394
+Other,Linux,1349
+Other,Git,1345
+Other,GCP,1278
+Other,Java,1274
+NLP Engineer,Python,236
+NLP Engineer,SQL,182
+NLP Engineer,Kubernetes,163
+NLP Engineer,TensorFlow,155
+NLP Engineer,Scala,146
+NLP Engineer,Java,141
+NLP Engineer,PyTorch,139
+NLP Engineer,Data Visualization,134
+NLP Engineer,Linux,132
+NLP Engineer,Computer Vision,125
+Data Scientist,Python,457
+Data Scientist,SQL,329
+Data Scientist,Kubernetes,293
+Data Scientist,TensorFlow,293
+Data Scientist,Scala,283
+Data Scientist,Linux,268
+Data Scientist,PyTorch,257
+Data Scientist,Git,250
+Data Scientist,Java,247
+Data Scientist,Hadoop,243
+Data Analyst,Python,222
+Data Analyst,Kubernetes,166
+Data Analyst,SQL,166
+Data Analyst,Linux,165
+Data Analyst,TensorFlow,160
+Data Analyst,Scala,134
+Data Analyst,PyTorch,130
+Data Analyst,Git,128
+Data Analyst,Tableau,126
+Data Analyst,Hadoop,124
+ML Engineer,Python,439
+ML Engineer,SQL,334
+ML Engineer,Kubernetes,324
+ML Engineer,TensorFlow,313
+ML Engineer,Scala,289
+ML Engineer,PyTorch,288
+ML Engineer,Java,280
+ML Engineer,Git,273
+ML Engineer,Linux,264
+ML Engineer,Azure,253
+Data Engineer,Python,233
+Data Engineer,TensorFlow,163
+Data Engineer,Kubernetes,159
+Data Engineer,SQL,156
+Data Engineer,Scala,145
+Data Engineer,Linux,143
+Data Engineer,Git,138
+Data Engineer,Java,128
+Data Engineer,PyTorch,128
+Data Engineer,Deep Learning,123
+ML Ops Engineer,Python,243
+ML Ops Engineer,SQL,162
+ML Ops Engineer,TensorFlow,158
+ML Ops Engineer,Git,149
+ML Ops Engineer,Linux,136
+ML Ops Engineer,Scala,130
+ML Ops Engineer,PyTorch,129
+ML Ops Engineer,Java,128
+ML Ops Engineer,Kubernetes,127
+ML Ops Engineer,Hadoop,120
+Deep Learning Engineer,Python,218
+Deep Learning Engineer,SQL,162
+Deep Learning Engineer,PyTorch,148
+Deep Learning Engineer,TensorFlow,140
+Deep Learning Engineer,Linux,137
+Deep Learning Engineer,Kubernetes,128
+Deep Learning Engineer,GCP,123
+Deep Learning Engineer,Java,120
+Deep Learning Engineer,Spark,120
+Deep Learning Engineer,Hadoop,120
+Computer Vision Engineer,Python,218
+Computer Vision Engineer,SQL,165
+Computer Vision Engineer,Scala,153
+Computer Vision Engineer,Kubernetes,140
+Computer Vision Engineer,Java,137
+Computer Vision Engineer,TensorFlow,136
+Computer Vision Engineer,PyTorch,134
+Computer Vision Engineer,Tableau,133
+Computer Vision Engineer,GCP,132
+Computer Vision Engineer,Spark,120
