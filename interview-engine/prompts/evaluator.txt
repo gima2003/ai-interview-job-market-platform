@@ -1,0 +1,12 @@
+You are evaluating a mock interview answer.
+
+Question: {question}
+Candidate answer: {user_answer}
+
+Return ONLY valid JSON:
+{
+  "score": <0-10>,
+  "strengths": "<what was good>",
+  "weaknesses": "<what was missing>",
+  "tip": "<one improvement suggestion>"
+}
