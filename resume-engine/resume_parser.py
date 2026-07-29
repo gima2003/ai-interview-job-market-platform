@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 import fitz
 from skill_extractor import extract_skills
 from ats_score import calculate_ats_score, find_missing_skills
